@@ -18,8 +18,3 @@ set_param(f,"SimulationCommand","start");
 % if simOut.get('Error') == 0
 %     disp("No errors");
 % end
-if isempty(simOut)
-        disp('No simulation results found. Check for errors or warnings.');
-else
-    disp('Simulation completed successfully.');
-end
