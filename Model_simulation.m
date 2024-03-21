@@ -13,6 +13,7 @@ if(is_loaded)
 end
  
   simOut=sim(f);
+  simout;
 set_param(f,"SimulationCommand","start");
 % if simOut.get('Error') == 0
 %     disp("No errors");
