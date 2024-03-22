@@ -9,7 +9,7 @@ is_loaded = bdIsLoaded(f);
 if(is_loaded)
      fprintf("Model is loaded successfully\n ");
 % else
-%       disp("Model is not successfull");
+%       disp("Model is not successful");
 end
  
   simOut=sim(f);
